@@ -1,0 +1,28 @@
+.oval-img {
+    height: 15vw;
+    min-height: 150px;
+    border-radius: 50%;
+}
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: white;
+}
+.bg-body-tertiary {
+    background-color: rgba(255 255 255 / 5%) !important;
+    border-bottom: 1px solid rgba(255 255 255 / 25%);
+}
+.nav-link {
+    letter-spacing: 2px;
+    margin: 0 .75rem;
+}
+#navbarNavDropdown {
+    justify-content: end;
+}
+.dropdown-menu {
+    --bs-dropdown-color: white;
+    --bs-dropdown-bg: rgba(255 255 255 / 15%);
+    --bs-dropdown-border-color: white;
+    --bs-dropdown-border-radius: 2px;
+    --bs-dropdown-link-color: white;
+}
